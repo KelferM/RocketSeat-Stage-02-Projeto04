@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.page {
+  max-width: 65rem;
+  padding: 6.4rem 4rem 10rem 4rem;
+  margin: 0 auto;
+}
+
+main img{
+  width: 100%;
+  padding: 0 7rem;
+  margin-bottom: 3.2rem;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  color: #3F3D56;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+h1 span {
+  font-weight: 700;
+  color: #EE24FF;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #828282;
+  text-align: center;
+}
+
+p span {
+  font-weight: 700;
+  color: #3F3D56;
+}
+
+p .flutuar{
+  color: #828282;
+}
+
+main p:nth-child(7){
+  margin-top: 3.2rem;
+  margin-bottom: 6.4rem;
+}
+
+.line {
+  border: 0.1rem solid #ECEFF2;
+  margin: 0 6rem 1.6rem;
+}
+
+nav {
+  margin: 0 6.3rem;
+  display: flex;
+  justify-content: space-between;
+  transition: all 600ms;
+}
+
+ul {
+  list-style: none;  
+
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: #3F3D56;
+  transition: all 600ms;
+}
+
+ul li a:hover {
+  font-size: 1.6rem;
+  color: #3f3d56c0;
+}
+
+nav:hover {
+  margin: 0 6.1rem;
+}
+
+
+footer img{
+  width: 100%;
+  position:fixed;
+  bottom: -2rem;
+}
+
+
+@media (max-width: 400px) {  
+
+  main img{
+    padding: 0 3rem;
+  }
+
+  nav {
+    margin: 0 1.5rem;
+  }
+
+  ul li a {
+    font-size: 1.4rem;
+  }
+
+  footer img{
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+  }
+
+}
+
+
+
